@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  background-image: radial-gradient(#A5E1A6 10%, #B3E5B3,#D7F5D3, white);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+  height: 20vh;
+  position: fixed;
+}
+
+#header {
+ display: flex;
+ width: 10%;
+ height: 10vh;
+ justify-content: center;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  height: 300vh;
+}
+
+.section 
+{
+  display: flex;
+  height: 100vh;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 50px;
+  align-items: center;
+}
+
+#section2 {
+  overflow-x: scroll;
+}
+
+#fakeFooter {
+  display:flex;
+  height: 20vh;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  justify-content: center;
+}
+
+#fixedfakeFooter {
+  display: flex;
+  width: 10%;
+  height: 10vh;
+  justify-content: center;
+}
+
+.contentBox {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  opacity: 30%;
+  width: 50%;
+  height: 50%;
+  margin: 50px;
+  /* justify-self: center; */
+  /* align-self: center; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+@font-face {
+  font-family: heading;
+  src: url(font/Meditative.ttf);
+}
+
+.heading {
+  margin: 40px;
+  text-align: justify; 
+  color: green;
+  font-family: heading;
+  font-size: 200%;
+  font-weight: bold;
+  margin-bottom: -2px;
+}
+
+@font-face {
+  font-family: para;
+  src: url(font/gar.ttf);
+}
+
+.content {
+  margin: 40px;
+  text-align: center; 
+  color: green;
+  font-family: para;
+  font-size: 100%;
+  font-weight: 900;
+  overflow-y: scroll;
+}
+
+.imageBox {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+  margin: 50px;
+}
+
+.innerBox {
+  display: flex;
+  height: 50%;
+}
+
+.innerBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+#innerBox1 
+{
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+
+#innerBox2 
+{
+  margin-top: 5px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.innermostBox {
+  display: flex;
+  width: 50%;
+}
+
+#innermostBox1 {
+  display: flex;
+  background-color: red;
+  height: 100%;
+  margin-right: 5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+#innermostBox2 {
+  display: flex;
+  height: 100%;
+  margin-left: 5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+
+#squareBox {
+  height: 100%;
+  background-color: azure;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#splash {
+  /* (A1) FULLSCREEN */
+  position: fixed; top: 0; left: 0; z-index: 999;
+  width: 100vw; height: 100vh;
+
+  /* (A2) CENTER */
+  display: flex;
+  align-items: center; justify-content: center;
+
+  /* (A3) COSMETICS */
+  background: #A5E1A6;
+}
+
+/* (A4) TO HIDE THE SPLASH SCREEN */
+#splash.hide {
+  opacity: 0; visibility: hidden;
+  transition: all 1s;
+}
+
+/* NOT IMPORTANT - COSMETICS */
+
