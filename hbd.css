@@ -144,7 +144,6 @@ main{
 
 #innermostBox1 {
   display: flex;
-  background-color: red;
   height: 100%;
   margin-right: 5px;
   justify-content: center;
@@ -164,7 +163,6 @@ main{
 
 #squareBox {
   height: 100%;
-  background-color: azure;
   border-radius: 20px;
   justify-content: center;
   align-items: center;
