@@ -107,6 +107,7 @@ main{
   width: 50%;
   height: 50%;
   margin: 50px;
+  filter: grayscale(100%);
 }
 
 .innerBox {
